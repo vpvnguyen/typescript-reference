@@ -16,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/vpvnguyen/typescript-reference/issues"
   },
-  "homepage": "https://github.com/vpvnguyen/typescript-reference#readme"
+  "homepage": "https://github.com/vpvnguyen/typescript-reference#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "@types/node": "^14.0.27"
+  }
 }
