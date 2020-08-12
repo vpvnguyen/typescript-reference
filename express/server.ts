@@ -1,9 +1,9 @@
-import express from "express";
+import express, { Request, Response } from "express";
 const app = express();
 
-const PORT = 5000;
+const PORT: number = 5000;
 
-app.get("/", (req, res) => {
+app.get("/", (req: Request, res: Response) => {
   res.send("Express TS Server");
 });
 
